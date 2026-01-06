@@ -42,7 +42,8 @@ The dataset was prepared using publicly available tourism and weather data, with
 ---
 
 ## 🛠 Tools & Technologies Used
-- **Tableau** – Interactive dashboards and visual storytelling  
+- **Tableau** – Interactive dashboards and visual storytelling
+- **PowerBi** – Interactive dashboards and visual storytelling  
 - **Python (Google Colab)** – Data analysis and machine learning  
 - **Pandas & NumPy** – Data processing  
 - **Matplotlib** – Data visualization  
