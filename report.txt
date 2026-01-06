@@ -1,0 +1,65 @@
+Event & Tourism Forecasting System for Kochi Using Tableau and Machine Learning
+1. Introduction
+Tourism in Kochi has grown rapidly across leisure, cultural events, cruise tourism, and business travel. With increasing tourism related activities, analyzing visitor patterns and predicting future demand has become important for planning accommodation, improving services, and designing better promotional strategies.
+This project develops a combined Tableau analytics dashboard and machine learning based forecasting system to study tourism trends and generate actionable insights for future planning.
+2. Objective of the Project
+The main objectives of this project are:
+● To analyze tourism trends in Kochi using historical data.
+● To create visual dashboards that help stakeholders understand patterns
+clearly.
+● To build machine learning models for revenue prediction, seasonal
+forecasting, and satisfaction insights.
+● To provide recommendations for improving tourist engagement and
+off-season performance.
+3. Dataset Description
+The dataset used is a CSV file containing monthly tourism information spanning multiple years.
+The major fields include:
+● Total tourist arrivals
+● Domestic vs international visitors
+● Cruise arrivals
+● Rainfall
+● Hotel occupancy percentage
+● Seasonal category
+● Event-related data
+
+ Dataset Collection
+The dataset was compiled using publicly available tourism statistics, weather information, and aggregated values from event calendars. Some fields were derived to support forecasting tasks. The dataset was cleaned and prepared for analysis in Python.
+4. Tools Used 
+4.1 Tableau
+Tableau was used to build visual dashboards showing:
+● Monthly tourism trends
+● Top visited times and seasons
+● Domestic vs international flow
+● Cruise arrival patterns
+● Hotel occupancy behavior
+Why Tableau?
+It allows interactive visuals, easy filtering, and clean visual interpretations suitable for presentations and insights.
+4.2 Python (Google Colab)
+Python was used for:
+● Data preprocessing
+● Statistical exploration
+● Plot generation
+● ML model development
+Why Python?
+It is widely adopted for forecasting, and tools like pandas and scikit-learn make model building efficient and reliable.
+5. Machine Learning Models Used
+5.1. Random Forest Regressor – Revenue & Season Forecasting
+Chosen for:
+● Its ability to handle non-linear patterns
+● Good performance on mixed numerical datasets
+● Stability and reduced risk of overfitting
+It predicts yearly revenue and seasonal tourist inflow based on multiple tourism variables.
+5.2. Random Forest Classifier – Tourist Satisfaction Insights
+Although the satisfaction labels were synthetic, the model helped identify factors linked to poor experiences, especially:
+● High rainfall
+● High hotel occupancy (overcrowding)
+6. Key Findings & Learnings
+● Tourist arrivals peak during dry months and drop during monsoon.
+● Cruise arrivals contribute noticeably to overall growth.
+● Revenue strongly correlates with total arrivals and occupancy.
+● Poor satisfaction is often linked to weather issues and crowding.
+● Off-season tourism can be improved through event-based promotions and
+better indoor attractions.
+This project helped understand how weather, occupancy, and monthly patterns shape tourism behavior.
+7. Conclusion
+This project demonstrates how combining Tableau visualization with machine learning forecasting can support tourism planning in a structured and data-driven way. The system effectively highlights trends, predicts future revenue, assesses seasonal variations, and suggests improvements. Overall, the work shows how analytics can help Kochi enhance its tourism strategies, strengthen off-season performance, and create better experiences for visitors.
